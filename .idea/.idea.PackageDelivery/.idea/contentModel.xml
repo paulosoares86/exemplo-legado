@@ -11,36 +11,11 @@
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Common" t="Include">
-          <e p="BooleanToYesConverter.cs" t="Include" />
-          <e p="Command.cs" t="Include" />
-          <e p="Common.xaml" t="Include" />
-          <e p="CustomMessageBox.cs" t="Include" />
-          <e p="CustomWindow.xaml" t="Include" />
-          <e p="CustomWindow.xaml.cs" t="Include" />
-          <e p="DialogCloser.cs" t="Include" />
-          <e p="DialogService.cs" t="Include" />
-          <e p="InvertedBooleanConverter.cs" t="Include" />
-          <e p="MainDataTemplateSelector.cs" t="Include" />
-          <e p="MainViewModel.cs" t="Include" />
-          <e p="MainWindow.xaml" t="Include" />
-          <e p="MainWindow.xaml.cs" t="Include" />
-          <e p="ViewModel.cs" t="Include" />
-        </e>
         <e p="Delivery" t="Include">
-          <e p="ChangeCustomerView.xaml" t="Include" />
-          <e p="ChangeCustomerViewModel.cs" t="Include" />
-          <e p="ChangeProductView.xaml" t="Include" />
-          <e p="ChangeProductViewModel.cs" t="Include" />
           <e p="Cstm.cs" t="Include" />
           <e p="DBHelper.cs" t="Include" />
-          <e p="DeliveryListView.xaml" t="Include" />
-          <e p="DeliveryListViewModel.cs" t="Include" />
+          <e p="DeliveryService.cs" t="Include" />
           <e p="Dlvr.cs" t="Include" />
-          <e p="EditPackageView.xaml" t="Include" />
-          <e p="EditPackageViewModel.cs" t="Include" />
-          <e p="NewDeliveryView.xaml" t="Include" />
-          <e p="NewDeliveryViewModel.cs" t="Include" />
           <e p="Prdct.cs" t="Include" />
         </e>
         <e p="Images" t="Include">
@@ -49,6 +24,7 @@
         <e p="obj" t="ExcludeRecursive" />
         <e p="PackageDelivery.csproj" t="IncludeRecursive" />
         <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
           <e p="Resources.Designer.cs" t="Include" />

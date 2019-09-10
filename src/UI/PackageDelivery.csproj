@@ -76,68 +76,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Common\CustomMessageBox.cs" />
-    <Compile Include="Delivery\ChangeCustomerViewModel.cs" />
-    <Compile Include="Delivery\ChangeProductViewModel.cs" />
     <Compile Include="Delivery\Cstm.cs" />
-    <Compile Include="Delivery\EditPackageViewModel.cs" />
-    <Compile Include="Delivery\NewDeliveryViewModel.cs" />
+    <Compile Include="Delivery\DeliveryService.cs" />
     <Compile Include="Delivery\DBHelper.cs" />
-    <Page Include="Common\Common.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Common\CustomWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Common\MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Delivery\ChangeProductView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Delivery\ChangeCustomerView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Delivery\EditPackageView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Delivery\NewDeliveryView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Delivery\DeliveryListView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Common\BooleanToYesConverter.cs" />
-    <Compile Include="Common\Command.cs" />
-    <Compile Include="Common\CustomWindow.xaml.cs">
-      <DependentUpon>CustomWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Common\DialogCloser.cs" />
-    <Compile Include="Common\DialogService.cs" />
-    <Compile Include="Common\InvertedBooleanConverter.cs" />
-    <Compile Include="Common\MainDataTemplateSelector.cs" />
-    <Compile Include="Common\MainViewModel.cs" />
-    <Compile Include="Common\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Common\ViewModel.cs" />
-    <Compile Include="Delivery\DeliveryListViewModel.cs" />
     <Compile Include="Delivery\Dlvr.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Delivery\Prdct.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

@@ -1,4 +1,0 @@
-/Users/paulosoares/Downloads/domain-driven-design-legacy-projects/03/demos/Initial/src/UI/obj/Debug/PackageDelivery.csprojAssemblyReference.cache
-/Users/paulosoares/Downloads/domain-driven-design-legacy-projects/03/demos/Initial/src/UI/obj/Debug/PackageDelivery.Properties.Resources.resources
-/Users/paulosoares/Downloads/domain-driven-design-legacy-projects/03/demos/Initial/src/UI/obj/Debug/PackageDelivery.csproj.GenerateResource.cache
-/Users/paulosoares/Downloads/domain-driven-design-legacy-projects/03/demos/Initial/src/UI/obj/Debug/PackageDelivery.csproj.CoreCompileInputs.cache

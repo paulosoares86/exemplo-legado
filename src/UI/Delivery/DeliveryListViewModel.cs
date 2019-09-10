@@ -3,7 +3,7 @@ using PackageDelivery.Common;
 
 namespace PackageDelivery.Delivery
 {
-    public class DeliveryListViewModel : ViewModel
+    public class DeliveryListViewModel
     {
         public Command RefreshCommand { get; }
         public Command NewDeliveryCommand { get; }
@@ -21,12 +21,7 @@ namespace PackageDelivery.Delivery
             Refresh();
         }
 
-        private void MarkAsInProgress(Dlvr delivery)
-        {
-            DBHelper.UpdateStatus(delivery.NMB_CLM, "P");
 
-            Refresh();
-        }
 
         private void EditPackage(Dlvr delivery)
         {
@@ -38,7 +33,7 @@ namespace PackageDelivery.Delivery
 
         private void NewDelivery()
         {
-            var viewModel = new NewDeliveryViewModel();
+            var viewModel = new DeliveryService();
             _dialogService.ShowDialog(viewModel);
 
             Refresh();
