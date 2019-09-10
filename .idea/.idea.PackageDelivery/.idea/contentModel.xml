@@ -8,8 +8,6 @@
       <e p="src/DBScript.sql" t="Include" />
       <e p="src/UI" t="IncludeRecursive">
         <e p="App.config" t="Include" />
-        <e p="App.xaml" t="Include" />
-        <e p="App.xaml.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Delivery" t="Include">
           <e p="Cstm.cs" t="Include" />
@@ -32,6 +30,7 @@
           <e p="Settings.Designer.cs" t="Include" />
           <e p="Settings.settings" t="Include" />
         </e>
+        <e p="Readme.md" t="Include" />
       </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />

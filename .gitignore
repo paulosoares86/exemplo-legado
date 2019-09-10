@@ -1,2 +1,5 @@
 src/UI/obj
 src/UI/bin
+log/
+data/
+.system/

@@ -72,17 +72,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
     <Compile Include="Delivery\Cstm.cs" />
     <Compile Include="Delivery\DeliveryService.cs" />
     <Compile Include="Delivery\DBHelper.cs" />
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Delivery\Dlvr.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -117,6 +109,8 @@
   <ItemGroup>
     <Resource Include="Images\Icon.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Readme.md" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
