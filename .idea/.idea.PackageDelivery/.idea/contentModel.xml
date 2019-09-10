@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="PackageDelivery.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Solution Items" t="Include" />
+      <e p="src/DBScript.sql" t="Include" />
+      <e p="src/UI" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common" t="Include">
+          <e p="BooleanToYesConverter.cs" t="Include" />
+          <e p="Command.cs" t="Include" />
+          <e p="Common.xaml" t="Include" />
+          <e p="CustomMessageBox.cs" t="Include" />
+          <e p="CustomWindow.xaml" t="Include" />
+          <e p="CustomWindow.xaml.cs" t="Include" />
+          <e p="DialogCloser.cs" t="Include" />
+          <e p="DialogService.cs" t="Include" />
+          <e p="InvertedBooleanConverter.cs" t="Include" />
+          <e p="MainDataTemplateSelector.cs" t="Include" />
+          <e p="MainViewModel.cs" t="Include" />
+          <e p="MainWindow.xaml" t="Include" />
+          <e p="MainWindow.xaml.cs" t="Include" />
+          <e p="ViewModel.cs" t="Include" />
+        </e>
+        <e p="Delivery" t="Include">
+          <e p="ChangeCustomerView.xaml" t="Include" />
+          <e p="ChangeCustomerViewModel.cs" t="Include" />
+          <e p="ChangeProductView.xaml" t="Include" />
+          <e p="ChangeProductViewModel.cs" t="Include" />
+          <e p="Cstm.cs" t="Include" />
+          <e p="DBHelper.cs" t="Include" />
+          <e p="DeliveryListView.xaml" t="Include" />
+          <e p="DeliveryListViewModel.cs" t="Include" />
+          <e p="Dlvr.cs" t="Include" />
+          <e p="EditPackageView.xaml" t="Include" />
+          <e p="EditPackageViewModel.cs" t="Include" />
+          <e p="NewDeliveryView.xaml" t="Include" />
+          <e p="NewDeliveryViewModel.cs" t="Include" />
+          <e p="Prdct.cs" t="Include" />
+        </e>
+        <e p="Images" t="Include">
+          <e p="Icon.png" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PackageDelivery.csproj" t="IncludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_PackageDelivery.-83977129.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+  </component>
+</project>
